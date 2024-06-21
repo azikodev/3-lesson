@@ -1,4 +1,4 @@
-// src/components/ProductDetails.tsx
+// src/components/ProductList.tsx
 
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
@@ -8,10 +8,10 @@ import "./Details.css";
 interface Product {
   id: number;
   title: string;
-  images: string;
+  images: string; 
 }
 
-function ProductDetails() {
+function ProductList() {
   const [product, setProduct] = useState<Product | null>(null);
   const [quantity, setQuantity] = useState(1);
   const [todos, setTodos] = useState<string[]>([]);
@@ -97,4 +97,4 @@ function ProductDetails() {
   );
 }
 
-export default ProductDetails;
+export default ProductList;
