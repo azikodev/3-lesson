@@ -131,13 +131,7 @@ nav{
   margin: 0 auto;
 }
 
-.product-list {
-  /* max-width: 600px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 20px; */
-}
+
 
 .product {
   background-color: #fff;
@@ -231,26 +225,26 @@ nav{
 .delete-button, .details-button {
   padding: 8px 16px;
   border: none;
-  border-radius: 9999px; /* Fully rounded buttons */
+  border-radius: 9999px; 
   color: white;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .delete-button {
-  background-color: #e53e3e; /* Red color */
+  background-color: #e53e3e; 
 }
 
 .delete-button:hover {
-  background-color: #c53030; /* Darker red on hover */
+  background-color: #c53030; 
 }
 
 .details-button {
-  background-color: #38a169; /* Green color */
+  background-color: #38a169; 
 }
 
 .details-button:hover {
-  background-color: #2f855a; /* Darker green on hover */
+  background-color: #2f855a; 
 }
 
 

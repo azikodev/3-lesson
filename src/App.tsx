@@ -1,4 +1,3 @@
-// src/App.tsx
 
 import { useEffect, useState } from "react";
 import {
@@ -8,7 +7,7 @@ import {
   useNavigate,
 } from "react-router-dom";
 import "./App.css";
-import ProductDetails from "../src/components/ProductList";  // Ensure correct path
+import ProductDetails from "../src/components/ProductList"; 
 
 interface Products {
   limit: number;
